@@ -41,7 +41,7 @@ hist(x=dailysum,
      ylab="Frequency",
      main="The distribution of daily total (missing data ignored)")
 ```
-![alt tag](http://url/to/unnamed-chunk-3-1.png)
+![alt tag](https://github.com/skumpati/RepData_PeerAssessment1/blob/master/unnamed-chunk-3-1.png)
 
 Next, calculate and report the mean and median total number of steps taken per day
 
