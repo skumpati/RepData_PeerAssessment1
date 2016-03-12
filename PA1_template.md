@@ -71,6 +71,7 @@ with(df_ia,
           ylab="average steps in the interval across all days"))
 ```
 
+![alt tag](https://github.com/skumpati/RepData_PeerAssessment1/blob/master/unnamed-chunk-6-1.png)
 
 Next is to check which 5-minute interval, on average across all the days in the dataset, contains the maximum number of steps:
 
@@ -116,6 +117,10 @@ hist(x=new_dailysum,
      ylab="frequency",
      main="The distribution of daily total (with missing data imputed)")
 ```
+
+![alt tag](https://github.com/skumpati/RepData_PeerAssessment1/blob/master/unnamed-chunk-10-1.png)
+
+
 ```{r}
 mean(new_dailysum)
 ```
@@ -159,6 +164,8 @@ xyplot(steps ~ interval | factor(wk),
        lty=1,
        data=wk_df)
 ```
+
+![alt tag](https://github.com/skumpati/RepData_PeerAssessment1/blob/master/unnamed-chunk-14-1.png)
 
 From the panel plot it looks like the weekday activities arise earlier than the weekends - weekday activities arise around 5~6am and weekend activities arise around 8am. We can also observe that from 10am to 5pm, the weekends have higher activity levels than the weekdays.
 
