@@ -41,7 +41,7 @@ showing the distribution of these totals.
          ylab="Frequency",
          main="The distribution of daily total (missing data ignored)")
 
-![](Final_files/figure-markdown_strict/unnamed-chunk-3-1.png) Next,
+![](Lord_files/figure-markdown_strict/unnamed-chunk-3-1.png) Next,
 calculate and report the mean and median total number of steps taken per
 day
 
@@ -71,7 +71,7 @@ number of steps taken, averaged across all days (y-axis)
               xlab="5-minute intervals",
               ylab="average steps in the interval across all days"))
 
-![](Final_files/figure-markdown_strict/unnamed-chunk-6-1.png)
+![](Lord_files/figure-markdown_strict/unnamed-chunk-6-1.png)
 
 Next is to check which 5-minute interval, on average across all the days
 in the dataset, contains the maximum number of steps:
@@ -121,7 +121,7 @@ day.
          ylab="frequency",
          main="The distribution of daily total (with missing data imputed)")
 
-![](Final_files/figure-markdown_strict/unnamed-chunk-10-1.png)
+![](Lord_files/figure-markdown_strict/unnamed-chunk-10-1.png)
 
     mean(new_dailysum)
 
@@ -183,7 +183,7 @@ taken, averaged across all weekday days or weekend days (y-axis).
            lty=1,
            data=wk_df)
 
-![](Final_files/figure-markdown_strict/unnamed-chunk-14-1.png)
+![](Lord_files/figure-markdown_strict/unnamed-chunk-14-1.png)
 
 From the panel plot it looks like the weekday activities arise earlier
 than the weekends - weekday activities arise around 5~6am and weekend
